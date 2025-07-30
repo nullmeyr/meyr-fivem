@@ -9,3 +9,8 @@ Commands:
 - /transfermoney [id] [bank/cash] [amount] | User
 
 I made this a while back when I used to write all my stuff in LUA, the code is very modular but not *as* modular as I could make it. Hence, why I started something newer in typescript :) 
+
+Permissions are baked into this resource as well!
+
+I even wrote a basic bank UI using JQuery to test out A LOT of the database interactions that the server makes for money! 
+
