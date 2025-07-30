@@ -1,7 +1,7 @@
 SV_Config = {} 
 
 -- Webhook for logging suspicious actions
-SV_Config.Webhook = "https://discord.com/api/webhooks/1351038944329990205/zf6-abQ43C0cOp0bmz5XXYB6fdwzhYvG6xKozaY0PArl4kOcOKRK6h14SgFk1ry9czHi" 
+SV_Config.Webhook = "" 
 
 -- Cooldown players need to wait to start another job (in minutes)
 SV_Config.Cooldown = 180 
