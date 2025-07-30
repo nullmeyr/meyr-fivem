@@ -7,3 +7,6 @@ I go by Meyr, and I'm currently 19 and in University--I've been developing and w
 I have made this repository and compiled some of my works to be showcased! Everything you see in this repository is **100%** written by myself. Some of the resource names are different because they were written for different projects. 
 
 If you have any questions about anything at all, please reach out to me and I can explain (whether it is my thought process behind something or something else). 
+
+## Notes
+If you want to get into the nitty-gritty, look at my `lua-core` / `ai-chatmod` / `es_fleeca` / `typescript-core-WIP` - These are some of my largest resources. Once again, all written by myself. 
