@@ -1,0 +1,116 @@
+.hud {
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    color: white;
+    margin: 0;
+
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 344;
+    font-style: italic;
+    font-size: 27px;
+    
+}
+
+.icons {
+    height: 30;
+    width: auto;
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.atm {
+
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -500px;
+
+    display: none;
+
+    border-radius: 5px;
+    background-color: rgb(51, 60, 74);
+    background-image: linear-gradient(to bottom right, rgb(31, 57, 100), rgb(3, 31, 75));
+    animation: fadeIn 1s;
+}
+
+.deposit {
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 390;
+    font-style: bold;
+    font-size: 17px;
+    width: 200px;
+    height: auto;
+    top: 50%;
+    left: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(31, 57, 100);
+    backdrop-filter: blur(10px);
+}
+
+.withdraw {
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 390;
+    font-style: bold;
+    font-size: 17px;
+    width: 200px;
+    height: auto;
+    top: 50%;
+    left: 60%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(31, 57, 100);
+    backdrop-filter: blur(10px);
+}
+
+.fleeca {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 35%;
+    border-radius: 10px;
+
+}
+
+#inputWithdraw {
+    background-color: rgb(34, 40, 50);
+    color:white;
+}
+
+#inputDeposit {
+    background-color: rgb(34, 40, 50);
+    color:white;
+}
+
+#withdrawButton {
+    position: relative;
+    left: 25%;
+}
+
+#depositButton {
+    position: relative;
+    left: 25%;
+}
+
+#exit {
+    position: relative;
+    left: 92%;
+    top: 4%;
+}
